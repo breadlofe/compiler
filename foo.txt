@@ -1,0 +1,221 @@
+Row 0:
+	S S 1
+	classdecl S 2
+	funcdecl S 3
+	CLASS S 4
+	FUNC S 5
+Row 1:
+	$ R 1 S'
+Row 2:
+	$ R 1 S
+Row 3:
+	$ R 1 S
+Row 4:
+	ID S 55
+Row 5:
+	ID S 6
+Row 6:
+	LPAREN S 7
+Row 7:
+	optionalPdecls S 8
+	arg S 9
+	ID S 10
+Row 8:
+	RPAREN S 18
+Row 9:
+	COMMA S 13
+	RPAREN R 1 optionalPdecls
+Row 10:
+	COLON S 11
+Row 11:
+	TYPE S 12
+Row 12:
+	RPAREN R 3 arg
+	COMMA R 3 arg
+Row 13:
+	pdecls S 14
+	arg S 15
+	ID S 10
+Row 14:
+	RPAREN R 3 optionalPdecls
+Row 15:
+	COMMA S 16
+	RPAREN R 1 pdecls
+Row 16:
+	pdecls S 17
+	arg S 15
+	ID S 10
+Row 17:
+	RPAREN R 3 pdecls
+Row 18:
+	optionalReturn S 19
+	return S 20
+	COLON S 21
+Row 19:
+	LBRACE S 23
+Row 20:
+	LBRACE R 1 optionalReturn
+Row 21:
+	TYPE S 22
+Row 22:
+	LBRACE R 2 return
+Row 23:
+	stmts S 24
+	stmt S 25
+	assign S 26
+	func S 27
+	cond S 28
+	loop S 29
+	ID S 30
+	IF S 31
+	WHILE S 32
+Row 24:
+	RBRACE S 53
+Row 25:
+	stmts S 52
+	stmt S 25
+	assign S 26
+	func S 27
+	cond S 28
+	loop S 29
+	ID S 30
+	IF S 31
+	WHILE S 32
+Row 26:
+	ID R 1 stmt
+	IF R 1 stmt
+	WHILE R 1 stmt
+Row 27:
+	ID R 1 stmt
+	IF R 1 stmt
+	WHILE R 1 stmt
+Row 28:
+	ID R 1 stmt
+	IF R 1 stmt
+	WHILE R 1 stmt
+Row 29:
+	ID R 1 stmt
+	IF R 1 stmt
+	WHILE R 1 stmt
+Row 30:
+	EQ S 46
+	LPAREN S 47
+Row 31:
+	LPAREN S 40
+Row 32:
+	LPAREN S 33
+Row 33:
+	NUM S 34
+Row 34:
+	RPAREN S 35
+Row 35:
+	braceblock S 36
+	LBRACE S 37
+Row 36:
+	ID R 5 loop
+	IF R 5 loop
+	WHILE R 5 loop
+Row 37:
+	stmts S 38
+	stmt S 25
+	assign S 26
+	func S 27
+	cond S 28
+	loop S 29
+	ID S 30
+	IF S 31
+	WHILE S 32
+Row 38:
+	RBRACE S 39
+Row 39:
+	ID R 3 braceblock
+	IF R 3 braceblock
+	WHILE R 3 braceblock
+	ELSE R 3 braceblock
+Row 40:
+	NUM S 41
+Row 41:
+	RPAREN S 42
+Row 42:
+	braceblock S 43
+	LBRACE S 37
+Row 43:
+	ELSE S 44
+	ID R 5 cond
+	IF R 5 cond
+	WHILE R 5 cond
+Row 44:
+	braceblock S 45
+	LBRACE S 37
+Row 45:
+	ID R 7 cond
+	IF R 7 cond
+	WHILE R 7 cond
+Row 46:
+	NUM S 50
+Row 47:
+	RPAREN S 48
+Row 48:
+	SEMI S 49
+Row 49:
+	ID R 4 func
+	IF R 4 func
+	WHILE R 4 func
+Row 50:
+	SEMI S 51
+Row 51:
+	ID R 4 assign
+	IF R 4 assign
+	WHILE R 4 assign
+Row 52:
+	RBRACE R 2 stmts
+Row 53:
+	SEMI S 54
+Row 54:
+	$ R 10 funcdecl
+	SEMI R 10 funcdecl
+Row 55:
+	LBRACE S 56
+Row 56:
+	memberdecls S 57
+	membervardecl S 58
+	memberfuncdecl S 59
+	VAR S 60
+	funcdecl S 61
+	FUNC S 5
+Row 57:
+	RBRACE S 69
+Row 58:
+	SEMI S 67
+Row 59:
+	SEMI S 65
+Row 60:
+	ID S 62
+Row 61:
+	SEMI R 1 memberfuncdecl
+Row 62:
+	COLON S 63
+Row 63:
+	TYPE S 64
+Row 64:
+	SEMI R 4 membervardecl
+Row 65:
+	memberdecls S 66
+	membervardecl S 58
+	memberfuncdecl S 59
+	VAR S 60
+	funcdecl S 61
+	FUNC S 5
+Row 66:
+	RBRACE R 3 memberdecls
+Row 67:
+	memberdecls S 68
+	membervardecl S 58
+	memberfuncdecl S 59
+	VAR S 60
+	funcdecl S 61
+	FUNC S 5
+Row 68:
+	RBRACE R 3 memberdecls
+Row 69:
+	$ R 5 classdecl

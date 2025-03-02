@@ -1,0 +1,337 @@
+{
+  "sym" : "S",
+  "children" : [
+   {
+  "sym" : "sum",
+  "children" : [
+     {
+    "sym" : "prod",
+    "children" : [
+        {
+       "sym" : "prod",
+       "children" : [
+          {
+         "sym" : "factor",
+         "children" : [
+             {
+            "sym" : "NUM",
+            "token" : { "sym": "NUM" , "line" : 1, "lexeme" : "5"  },
+            "children" : [
+            ]
+                }
+                ]
+             }
+             ]
+            }
+          ,
+        {
+       "sym" : "MUL",
+       "token" : { "sym": "MUL" , "line" : 1, "lexeme" : "*"  },
+       "children" : [
+       ]
+       }
+     ,
+        {
+       "sym" : "factor",
+       "children" : [
+           {
+          "sym" : "LPAREN",
+          "token" : { "sym": "LPAREN" , "line" : 1, "lexeme" : "("  },
+          "children" : [
+          ]
+          }
+        ,
+           {
+          "sym" : "sum",
+          "children" : [
+             {
+            "sym" : "sum",
+            "children" : [
+               {
+              "sym" : "sum",
+              "children" : [
+                 {
+                "sym" : "prod",
+                "children" : [
+                    {
+                   "sym" : "factor",
+                   "children" : [
+                       {
+                      "sym" : "NUM",
+                      "token" : { "sym": "NUM" , "line" : 1, "lexeme" : "3"  },
+                      "children" : [
+                      ]
+                             }
+                             ]
+                          }
+                          ]
+                       }
+                       ]
+                      }
+                    ,
+               {
+              "sym" : "PLUS",
+              "token" : { "sym": "PLUS" , "line" : 1, "lexeme" : "+"  },
+              "children" : [
+              ]
+              }
+            ,
+               {
+              "sym" : "prod",
+              "children" : [
+                  {
+                 "sym" : "factor",
+                 "children" : [
+                     {
+                    "sym" : "LPAREN",
+                    "token" : { "sym": "LPAREN" , "line" : 1, "lexeme" : "("  },
+                    "children" : [
+                    ]
+                    }
+                  ,
+                     {
+                    "sym" : "sum",
+                    "children" : [
+                       {
+                      "sym" : "prod",
+                      "children" : [
+                          {
+                         "sym" : "prod",
+                         "children" : [
+                            {
+                           "sym" : "factor",
+                           "children" : [
+                               {
+                              "sym" : "NUM",
+                              "token" : { "sym": "NUM" , "line" : 1, "lexeme" : "2"  },
+                              "children" : [
+                              ]
+                                  }
+                                  ]
+                               }
+                               ]
+                              }
+                            ,
+                          {
+                         "sym" : "MUL",
+                         "token" : { "sym": "MUL" , "line" : 1, "lexeme" : "*"  },
+                         "children" : [
+                         ]
+                         }
+                       ,
+                          {
+                         "sym" : "factor",
+                         "children" : [
+                             {
+                            "sym" : "NUM",
+                            "token" : { "sym": "NUM" , "line" : 1, "lexeme" : "4"  },
+                            "children" : [
+                            ]
+                                   }
+                                   ]
+                                }
+                                ]
+                             }
+                             ]
+                            }
+                          ,
+                     {
+                    "sym" : "RPAREN",
+                    "token" : { "sym": "RPAREN" , "line" : 1, "lexeme" : ")"  },
+                    "children" : [
+                    ]
+                           }
+                           ]
+                        }
+                        ]
+                     }
+                     ]
+                    }
+                  ,
+             {
+            "sym" : "PLUS",
+            "token" : { "sym": "PLUS" , "line" : 1, "lexeme" : "+"  },
+            "children" : [
+            ]
+            }
+          ,
+             {
+            "sym" : "prod",
+            "children" : [
+                {
+               "sym" : "factor",
+               "children" : [
+                   {
+                  "sym" : "LPAREN",
+                  "token" : { "sym": "LPAREN" , "line" : 1, "lexeme" : "("  },
+                  "children" : [
+                  ]
+                  }
+                ,
+                   {
+                  "sym" : "sum",
+                  "children" : [
+                     {
+                    "sym" : "sum",
+                    "children" : [
+                       {
+                      "sym" : "prod",
+                      "children" : [
+                          {
+                         "sym" : "factor",
+                         "children" : [
+                             {
+                            "sym" : "NUM",
+                            "token" : { "sym": "NUM" , "line" : 1, "lexeme" : "7"  },
+                            "children" : [
+                            ]
+                                   }
+                                   ]
+                                }
+                                ]
+                             }
+                             ]
+                            }
+                          ,
+                     {
+                    "sym" : "PLUS",
+                    "token" : { "sym": "PLUS" , "line" : 1, "lexeme" : "+"  },
+                    "children" : [
+                    ]
+                    }
+                  ,
+                     {
+                    "sym" : "prod",
+                    "children" : [
+                        {
+                       "sym" : "prod",
+                       "children" : [
+                          {
+                         "sym" : "factor",
+                         "children" : [
+                             {
+                            "sym" : "NUM",
+                            "token" : { "sym": "NUM" , "line" : 1, "lexeme" : "8"  },
+                            "children" : [
+                            ]
+                                }
+                                ]
+                             }
+                             ]
+                            }
+                          ,
+                        {
+                       "sym" : "MUL",
+                       "token" : { "sym": "MUL" , "line" : 1, "lexeme" : "*"  },
+                       "children" : [
+                       ]
+                       }
+                     ,
+                        {
+                       "sym" : "factor",
+                       "children" : [
+                           {
+                          "sym" : "LPAREN",
+                          "token" : { "sym": "LPAREN" , "line" : 1, "lexeme" : "("  },
+                          "children" : [
+                          ]
+                          }
+                        ,
+                           {
+                          "sym" : "sum",
+                          "children" : [
+                             {
+                            "sym" : "sum",
+                            "children" : [
+                               {
+                              "sym" : "prod",
+                              "children" : [
+                                  {
+                                 "sym" : "factor",
+                                 "children" : [
+                                     {
+                                    "sym" : "NUM",
+                                    "token" : { "sym": "NUM" , "line" : 1, "lexeme" : "3"  },
+                                    "children" : [
+                                    ]
+                                           }
+                                           ]
+                                        }
+                                        ]
+                                     }
+                                     ]
+                                    }
+                                  ,
+                             {
+                            "sym" : "PLUS",
+                            "token" : { "sym": "PLUS" , "line" : 1, "lexeme" : "+"  },
+                            "children" : [
+                            ]
+                            }
+                          ,
+                             {
+                            "sym" : "prod",
+                            "children" : [
+                                {
+                               "sym" : "factor",
+                               "children" : [
+                                   {
+                                  "sym" : "NUM",
+                                  "token" : { "sym": "NUM" , "line" : 1, "lexeme" : "2"  },
+                                  "children" : [
+                                  ]
+                                         }
+                                         ]
+                                      }
+                                      ]
+                                   }
+                                   ]
+                                  }
+                                ,
+                           {
+                          "sym" : "RPAREN",
+                          "token" : { "sym": "RPAREN" , "line" : 1, "lexeme" : ")"  },
+                          "children" : [
+                          ]
+                                 }
+                                 ]
+                              }
+                              ]
+                           }
+                           ]
+                          }
+                        ,
+                   {
+                  "sym" : "RPAREN",
+                  "token" : { "sym": "RPAREN" , "line" : 1, "lexeme" : ")"  },
+                  "children" : [
+                  ]
+                         }
+                         ]
+                      }
+                      ]
+                   }
+                   ]
+                  }
+                ,
+           {
+          "sym" : "RPAREN",
+          "token" : { "sym": "RPAREN" , "line" : 1, "lexeme" : ")"  },
+          "children" : [
+          ]
+                 }
+                 ]
+              }
+              ]
+           }
+           ]
+          }
+        ,
+   {
+  "sym" : "SEMI",
+  "token" : { "sym": "SEMI" , "line" : 1, "lexeme" : ""  },
+  "children" : [
+  ]
+   }
+   ]
+  }
