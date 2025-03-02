@@ -93,6 +93,7 @@ namespace lab{
                     } // ON RIGHT HAND SIDE
                 } // parsing...
                 tmp_rhs.Add( part_rhs );
+                // FIXME: Causing problems with table reading. HELP!!
                 // if(tmp_rhs.Count == 1 && tmp_rhs[0] == "lambda")
                 //     tmp_rhs[0] = "";
                 Production prod = new( psec, tmp_lhs, tmp_rhs.ToArray() );
